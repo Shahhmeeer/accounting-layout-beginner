@@ -76,7 +76,7 @@ html {
 }
 
 .img {
-  background-image: url('/assets/pexels-cottonbro-studio-4064840.jpg');
+  background-image: url('../assets/pexels-cottonbro-studio-4064840.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
