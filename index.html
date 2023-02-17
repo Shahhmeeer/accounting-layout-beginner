@@ -12,6 +12,8 @@
   <link rel="icon" type="image/icon" href="./assets/logo.jpeg">
   <script src="https://kit.fontawesome.com/fe1ef81de4.js" crossorigin="anonymous"></script>
   <script src="./main.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
   <header>
@@ -86,7 +88,31 @@
     </div>
   </div>
   <main>
-    <h1>Main</h1>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide slide1">
+          Slide 1
+        </div>
+        <div class="swiper-slide slide2">
+          slide 2
+        </div>
+        <div class="swiper-slide slide3">
+          slide 3
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
   </main>
 </body>
 </html>
