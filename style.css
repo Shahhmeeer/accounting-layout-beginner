@@ -116,6 +116,44 @@ main {
   color: var(--color-primary);
 }
 
+.light-blue-shade {
+  background-color: var(--transparent);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainpage-services {
+  min-height: 30vh;
+  margin-top: 2rem;
+}
+
+.mainpage-service-button {
+  font-weight: bold;
+  text-align: center;
+  color: var(--text-dark);
+  background-color: var(--text-light);
+  text-decoration: none;
+}
+
+.mainpage-service-button:hover {
+  text-decoration: underline;
+}
+
+.tools {
+  min-height: 35vh;
+  background-image: url('./assets/london.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
 @media (max-width: 500px) {
   .main-hero-section {
     flex-direction: column;
