@@ -134,4 +134,13 @@ main {
     padding: 1rem;
     font-size: 0.7rem;
   }
+
+  .swiper-slide .image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .swiper-button-prev, .swiper-button-next {
+    display: none;
+  }
 }
