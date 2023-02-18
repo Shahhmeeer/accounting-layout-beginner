@@ -154,6 +154,50 @@ main {
   position: relative;
 }
 
+.testimonial-section {
+  min-height: 35vh;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  display: flex;
+  gap: 2rem;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.testimonial {
+  background-color: var(--transparent);
+  padding: 1rem 2rem;
+}
+
+.review {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.avatar-and-name {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: var(--text-dark);
+}
+
+.female {
+  background-image: url('./assets/female.svg');
+}
+
+.avatar {
+  background-image: url('/assets/male.svg');
+}
+
+.female, .avatar {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
 @media (max-width: 500px) {
   .main-hero-section {
     flex-direction: column;
