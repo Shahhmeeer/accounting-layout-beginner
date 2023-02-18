@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #004AAD;
+  --color-secondary: #003375;
+  --text-light: #fff;
+  --text-dark: #001e46;
+  --hover-color: #F9BD5B;
+  --transparent: #c0e4fa63;
+}
+
+main {
+  min-height: 100vh;
+  position: relative;
+}
+
+aside p {
+  margin: 1rem 0rem;
+}
+
+.connect-button {
+  background-color: var(--text-light);
+  color: var(--text-dark);
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  font-weight: bold;
+}
+
+.contact-us-heading {
+  min-height: 30vh;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-light);
+  flex-direction: column;
+}
+
+.form-container-and-sidebar {
+  display: flex;
+  padding: 2rem 0rem;
+  min-height: 70vh;
+}
+
+.contact-sidebar {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--color-secondary);
+  color: var(--text-light);
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.contact-sidebar a {
+  text-decoration: none;
+  color: var(--text-light);
+}
+
+form {
+  padding: 0rem 1rem;
+  flex: 1;
+}
+
+.or-section {
+  flex: 1.5;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-dark);
+}
+
+.name-section {
+  display: flex;
+}
+
+#name, #email{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.name {
+  margin-right: 1rem;
+}
+
+input {
+  border: 2px solid var(--text-dark);
+  padding: 1rem;
+  border-radius: 0.3rem;
+  outline-color: var(--color-primary);
+  display: block;
+}
+
+textarea {
+  border: 2px solid var(--text-dark);
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  outline-color: var(--color-primary);
+  width: 100%;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-button {
+  margin-top: 1rem;
+  padding: 0.5rem 12rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: var(--text-light);
+  color: var(--text-dark);
+  transition: background-color 0.5s ease-out;
+}
+
+.submit-button:hover {
+  background-color: var(--color-secondary);
+  color: var(--text-light);
+}
+
+@media (max-width: 500px) {
+  .form-container-and-sidebar {
+    flex-direction: column;
+  }
+
+  .contact-sidebar {
+    margin: 0rem 1rem;
+    padding: 2rem 1rem;
+  }
+
+  .contact-sidebar h1 {
+    font-size: 1.3rem;
+  }
+
+  .submit-button {
+    padding-inline: 9rem;
+  }
+}
