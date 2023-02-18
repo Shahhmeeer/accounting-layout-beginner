@@ -17,9 +17,11 @@
   background-color: var(--color-primary);
   min-height: 30vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
   font-family: 'Poppins', sans-serif;
   color: var(--text-light);
+  padding-bottom: 1rem;
 }
 
 .footer-logo {
@@ -69,11 +71,17 @@
   color: var(--hover-color);
 }
 
+.footer-service {
+  margin-bottom: 0.2rem;
+}
+
+.footer-services {
+  position: relative;
+}
+
 .more-button {
   color: var(--text-light);
   text-decoration: none;
-  background-color: var(--text-dark);
-  padding-inline: 1rem;
   border-radius: 0.2rem;
 }
 
@@ -86,6 +94,7 @@
 }
 
 @media (max-width: 500px) {
+
   .footer-recent-news{
     margin-left: -2.7rem;
     margin-bottom: 1rem;
