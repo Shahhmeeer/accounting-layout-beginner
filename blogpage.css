@@ -39,12 +39,15 @@ main {
   font-family: 'Roboto', sans-serif;
   color: var(--text-dark);
   line-height: 1.5;
-  max-width: 80%;
+  max-width: 95%;
   text-align: justify;
   font-size: 1.2rem;
 }
 
 .blogs-section-sidebar {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-secondary);
+  color: var(--text-light);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,4 +56,30 @@ main {
   height: 100vh;
   position: sticky;
   top: 0;
+}
+
+.blogs-section-sidebar h1 {
+  font-size: 2rem;
+}
+
+.blogs-section-sidebar ul {
+  list-style: none;
+}
+
+.blogs-section-sidebar a {
+  margin: 0.6rem 0rem;
+  display: block;
+  text-decoration: none;
+  color: var(--text-light);
+  font-weight: bold;
+}
+
+@media (max-width:500px) {
+  .blog-details-and-sidebar {
+    flex-direction: column;
+  }
+
+  .blog-details-and-sidebar p {
+    max-width: 100%;
+  }
 }
