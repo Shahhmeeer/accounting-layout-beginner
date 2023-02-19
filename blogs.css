@@ -57,6 +57,7 @@
   background-color: var(--text-dark);
   font-family: 'Poppins', sans-serif;
   color: var(--text-light);
+  cursor: default;
 }
 
 .blog-row {
