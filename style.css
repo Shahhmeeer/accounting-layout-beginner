@@ -133,6 +133,10 @@ main {
   margin-top: 2rem;
 }
 
+.services-section h1 {
+  text-align: center;
+}
+
 .mainpage-service-button {
   font-weight: bold;
   text-align: center;
@@ -222,6 +226,12 @@ main {
   font-family: 'Quicksand', sans-serif;
   background-color: var(--color-primary);
   color: var(--text-light);
+  transition: transform 0.4s ease-out;
+  cursor: default;
+}
+
+.main-blog:hover {
+  transform: scale(1.05);
 }
 
 .main-blog-button {
@@ -250,6 +260,25 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 200px;
+}
+
+.goto-blog-page-button {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.goto-blog-page-button a {
+  color: var(--text-dark);
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.goto-blog-page-button a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 500px) {
