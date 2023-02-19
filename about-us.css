@@ -6,3 +6,80 @@
   --hover-color: #F9BD5B;
   --transparent: #c0e4fa63;
 }
+
+main {
+  min-height: 100vh;
+}
+
+.about-us-heading {
+  background-color: var(--color-primary);
+  color: var(--text-light);
+  font-family: 'Roboto', sans-serif;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-main-section {
+  display: flex;
+  min-height: 80vh;
+}
+
+.about-left-section {
+  display: flex;
+}
+
+.about-left-section {
+  flex: 2;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 1rem;
+}
+
+.about-right-section {
+  flex: 1;
+}
+
+.col1, .col2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 0rem;
+}
+
+.col2 {
+  background-color: var(--color-secondary);
+  color: var(--text-light);
+  flex: 1;
+}
+
+.col2 p, .col1 p {
+  text-align: justify;
+  max-width: 85%;
+}
+
+.col1{
+  background-color: var(--text-light);
+  color: var(--text-dark);
+  flex: 1;
+}
+
+.about-us-image {
+  background-image: url('./assets/chiara-daneluzzi-GtQK4TraPV0-unsplash.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 1rem;
+}
+
+@media (max-width: 500px) {
+  .about-us-main-section {
+    flex-direction: column;
+  }
+
+  .about-left-section {
+    flex-direction: column;
+  }
+}
