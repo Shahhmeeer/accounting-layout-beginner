@@ -198,13 +198,76 @@ main {
   border-radius: 50%;
 }
 
+.blogs-mainpage-section {
+  min-height: 80vh;
+  padding: 1rem;
+}
+
+.h1 {
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-dark);
+}
+
+.row {
+  display: flex;
+  gap: 2rem;
+}
+
+.main-blog {
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--color-primary);
+  color: var(--text-light);
+}
+
+.main-blog-button {
+  padding: 0.5rem 0rem;
+}
+
+.main-blog a {
+  background-color: var(--text-light);
+  color: #001e46;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  font-weight: bold;
+}
+
+.main-blog-description-section {
+  padding: 1rem;
+}
+
+.main-blog-description-section p {
+  margin: 0.6rem 0rem;
+}
+
+.main-blog-image {
+  background-image: url('./assets/markus-winkler-Ber3q-zEhd4-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
 @media (max-width: 500px) {
   .main-hero-section {
     flex-direction: column;
   }
 
+  .row {
+    flex-direction: column;
+  }
+
   .left-side {
     padding: 1rem;
+  }
+
+  .testimonial-section {
+    margin-top: 1rem;
+    flex-direction: column;
   }
 
   .left-side p {
@@ -224,5 +287,9 @@ main {
   
   .swiper-button-prev, .swiper-button-next {
     display: none;
+  }
+
+  .avatar-and-name {
+    flex-direction: column;
   }
 }

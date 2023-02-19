@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+header, .primary-header {
+  z-index: 2;
+  position: sticky;
+  top: 0;
+}
+
 :root {
   --color-primary: #004AAD;
   --color-secondary: #003375;
@@ -32,6 +38,7 @@
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
+  background-color: var(--text-light);
 }
 
 .navbar {
