@@ -46,8 +46,8 @@ main {
 
 .blogs-section-sidebar {
   font-family: 'Poppins', sans-serif;
-  background-color: var(--color-secondary);
-  color: var(--text-light);
+  /* background-color: var(--color-secondary); */
+  color: var(--text-dark);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,14 +64,22 @@ main {
 
 .blogs-section-sidebar ul {
   list-style: none;
+  border: 2px dashed var(--text-dark);
+  width: 50%;
+  text-align: center;
+  padding: 1rem 0rem;
 }
 
 .blogs-section-sidebar a {
   margin: 0.6rem 0rem;
   display: block;
   text-decoration: none;
-  color: var(--text-light);
+  color: var(--text-dark);
   font-weight: bold;
+}
+
+.blogs-section-sidebar a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width:500px) {
