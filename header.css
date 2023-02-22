@@ -166,4 +166,18 @@ header, .primary-header {
     display: none;
   }
 
+  .logo {
+    font-size: 1.6rem;
+  }
+
+  .logo-container p {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    text-transform: capitalize;
+    text-align: justify;
+  }
+
 }
