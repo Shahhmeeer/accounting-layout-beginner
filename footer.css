@@ -110,6 +110,10 @@
     flex-direction: column;
   }
 
+  .secondary-footer h3, .secondary-footer span, .secondary-footer a {
+    font-size: 0.8rem;
+  }
+
   ul {
     list-style: none;
   }
