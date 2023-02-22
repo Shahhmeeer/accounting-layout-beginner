@@ -106,6 +106,7 @@ textarea {
   outline-color: var(--color-primary);
   width: 100%;
   resize: vertical;
+  font-family: 'Poppins', sans-serif;
 }
 
 .submit {
@@ -129,8 +130,8 @@ textarea {
 select {
   width: 100%;
   padding: 1rem;
-  outline-color: var(--text-dark);
-  border: 2px solid var(--color-secondary);
+  outline-color: var(--color-primary);
+  border: 2px solid var(--text-dark);
   font-family: 'Poppins',sans-serif;
   text-transform: capitalize;
   font-size: 1rem;
