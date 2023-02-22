@@ -70,6 +70,7 @@ main {
   text-align: justify;
   transition: all 0.5s ease-out;
   cursor: pointer;
+  max-width: 390px;
 }
 
 .service:hover {
@@ -103,10 +104,15 @@ main {
 @media(max-width: 500px) {
   .row1, .row2 {
     flex-wrap: wrap;
+    gap: 1rem;
   }
   .service-hero-section p {
     max-width: 100%;
     padding: 1rem;
     text-align: center;
+  }
+
+  .whitespace {
+    height: 8vh;
   }
 }
