@@ -154,6 +154,10 @@ main {
   background-size: contain;
 }
 
+.main-blog {
+  max-width: 390px;
+}
+
 .swiper-button-prev, .swiper-button-next {
   color: var(--color-primary);
 }
@@ -297,7 +301,7 @@ main {
 }
 
 .main-blog-image {
-  background-image: url('./assets/markus-winkler-Ber3q-zEhd4-unsplash.jpg');
+  background-image: url('./assets/blog1image.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
