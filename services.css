@@ -61,7 +61,7 @@ main {
 
 .row1 {
   display: flex;
-  gap: 4rem;
+  gap: 3rem;
 }
 
 .service {
@@ -83,8 +83,14 @@ main {
   align-items: center;
 }
 
-.image-and-heading h2 {
-  line-height: 2;
+.service p {
+  margin-top: 0.5rem;
+  line-height: 1.4;
+}
+
+.row1 a {
+  text-decoration: none;
+  color: var(--text-dark);
 }
 
 .image-and-heading i {
@@ -98,7 +104,7 @@ main {
 
 .row2 {
   display: flex;
-  gap: 4rem;
+  gap: 3rem;
 }
 
 @media(max-width: 500px) {
@@ -114,5 +120,9 @@ main {
 
   .whitespace {
     height: 8vh;
+  }
+
+  .image-and-heading h2 {
+    max-width: 73%;
   }
 }
