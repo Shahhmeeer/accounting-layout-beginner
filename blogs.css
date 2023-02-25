@@ -58,6 +58,7 @@
   font-family: 'Poppins', sans-serif;
   color: var(--text-light);
   cursor: default;
+  max-width: 450px;
 }
 
 .blog-row {
