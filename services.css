@@ -78,6 +78,14 @@ main {
   color: var(--text-light);
 }
 
+.service-image {
+  height: 60px;
+  width: 60px;
+  background-image: url('./assets/cis-removebg-preview.png');
+  background-size: contain;
+  margin-right: 1rem;
+}
+
 .image-and-heading {
   display: flex;
   align-items: center;

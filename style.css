@@ -182,7 +182,7 @@ main {
   width: 100%;
   position: absolute;
   font-family: 'Poppins', sans-serif;
-  color: var(--text-light);
+  color: var(--text-dark);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,7 +211,7 @@ main {
 
 .tools {
   min-height: 35vh;
-  background-image: url('./assets/london.jpg');
+  background-image: url('./assets/bridge.jpeg');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -255,7 +255,11 @@ main {
   background-image: url('/assets/male.svg');
 }
 
-.female, .avatar {
+.avatars {
+  background-image: url('./assets/male2.svg');
+}
+
+.female, .avatar, .avatars {
   width: 100px;
   height: 100px;
   background-position: center;
