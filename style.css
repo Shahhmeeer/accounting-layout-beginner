@@ -103,13 +103,55 @@ main {
   font-weight: bold;
 }
 
-.swiper-slide .image {
+.tool1 .image, .tool2 .image, .tool3 .image, .tool4 .image, .tool5 .image, .tool6 .image,
+.tool7 .image, .tool8 .image, .tool9 .image, .tool10 .image, .tool11 .image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-image: url('./assets/quickbook.png');
   background-size: cover;
   background-position: center;
+}
+
+.tool1 .image {
+  background-image: url('./assets/download.png');
+}
+
+.tool2 .image {
+  background-image: url('./assets/58482945cef1014c0b5e49f8.png');
+}
+
+.tool3 .image {
+  background-image: url('./assets/capium-squarelogo-1587476256283.png');
+}
+
+.tool4 .image {
+  background-image: url('./assets/wave.png');
+}
+
+.tool5 .image {
+  background-image: url('./assets/brightpay.png');
+}
+
+.tool6 .image {
+  background-image: url('./assets/new-sage-logo.png');
+}
+
+.tool7 .image {
+  background-image: url('./assets/nest.png');
+}
+.tool8 .image {
+  background-image: url('./assets/The-Peoples-Pension-Logo.png');
+  background-size: contain;
+}
+.tool9 .image {
+  background-image: url('./assets/tax\ calc.png');
+}
+.tool10 .image {
+  background-image: url('./assets/logo-moneysoft.png');
+}
+.tool11 .image {
+  background-image: url('./assets/scottish.jpg');
+  background-size: contain;
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -320,5 +362,15 @@ main {
 
   .avatar-and-name {
     flex-direction: column;
+  }
+
+  .tool1 .image, .tool2 .image, .tool3 .image, .tool4 .image, .tool5 .image, .tool6 .image,
+  .tool7 .image, .tool8 .image, .tool9 .image, .tool10 .image, .tool11 .image {
+  width: 85px;
+  height: 85px;
+  }
+
+  h3 {
+    font-size: 0.5rem;
   }
 }
