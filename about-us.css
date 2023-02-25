@@ -65,11 +65,20 @@ main {
   flex: 1;
 }
 
+.col2 ul {
+  padding: 0rem 0.6rem;
+}
+
+.col2 ul li {
+  margin: 1rem;
+  text-align: justify;
+}
+
 .about-us-image {
-  background-image: url('./assets/chiara-daneluzzi-GtQK4TraPV0-unsplash.jpg');
-  height: 700px;
+  background-image: url('./assets/undraw_balloons_re_8ymj.svg');
+  height: 400px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   margin: 1rem;
 }
@@ -81,5 +90,10 @@ main {
 
   .about-left-section {
     flex-direction: column;
+  }
+
+  .col2 ul li {
+    list-style: inside;
+    text-align: initial;
   }
 }
