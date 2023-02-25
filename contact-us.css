@@ -82,7 +82,7 @@ form {
   display: flex;
 }
 
-#name, #email{
+#name, #email, #phone-number{
   width: 100%;
   margin-bottom: 1rem;
 }
