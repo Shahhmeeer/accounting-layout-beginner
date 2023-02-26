@@ -75,10 +75,10 @@ main {
 }
 
 .about-us-image {
-  background-image: url('./assets/undraw_balloons_re_8ymj.svg');
-  height: 400px;
+  background-image: url('./assets/about.jpg');
+  height: 600px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   margin: 1rem;
 }
@@ -95,5 +95,8 @@ main {
   .col2 ul li {
     list-style: inside;
     text-align: initial;
+  }
+  .about-us-image {
+    height: 400px;
   }
 }
