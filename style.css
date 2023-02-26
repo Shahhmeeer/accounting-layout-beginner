@@ -118,7 +118,7 @@ main {
 }
 
 .tool1 .image, .tool2 .image, .tool3 .image, .tool4 .image, .tool5 .image, .tool6 .image,
-.tool7 .image, .tool8 .image, .tool9 .image, .tool10 .image, .tool11 .image {
+.tool7 .image, .tool8 .image, .tool9 .image, .tool10 .image, .tool11 .image, .odoo .image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -166,6 +166,12 @@ main {
 .tool11 .image {
   background-image: url('./assets/scottish.jpg');
   background-size: contain;
+}
+
+.odoo .image {
+  background-image: url('./assets/Odoo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .main-blog {
